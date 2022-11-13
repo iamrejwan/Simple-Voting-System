@@ -38,3 +38,50 @@ void Password(void);
      Password();
      return 0;
  }
+ void Password(void)
+{
+
+   system("cls");
+
+   printf("             \n\n\xDB\xDB\xDB Simple Voting System \xDB\xDB\xDB\n\n");
+   char d[25]="Password Protected";
+   char ch,pass[10];
+   char c,password[10]="rejwan";
+   int i=0,j;
+    for(j=0;j<20;j++)
+    {
+    printf("*");
+    Sleep(50);
+    }
+    for(j=0;j<20;j++)
+   {
+        Sleep(50);
+   printf("%c",d[j]);
+   }
+   for(j=0;j<20;j++)
+   {
+        Sleep(50);
+   printf("*");
+   }
+   printf("\nEnter Admin Password:");
+  while(ch!=13)
+   {
+    ch=getch();
+    if(ch!=13 && ch!=8){
+    putch('*');
+    pass[i] = ch;
+    i++;
+    }
+   }
+   pass[i] = '\0';
+   if(strcmp(password,pass)==0)
+   {
+       system("cls");
+    printf("\n\nLoading......\n");
+    for(j=0;j<60;j++)
+   {
+        Sleep(10);
+   printf("\xB2");
+   }
+   system("cls");
+   printf("\nPassword match");
