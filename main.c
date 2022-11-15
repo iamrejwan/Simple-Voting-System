@@ -1,6 +1,7 @@
 #include<stdio.h> //Including printf(),scanf()
 #include<windows.h> //including sleep()
 #include<string.h>  //Including strcmp etc
+#include "loading.c" //loading screen
 #define MAX 20
 
 void Password(void);
