@@ -86,3 +86,47 @@ void Password(void);
    }
    system("cls");
    printf("\nPassword match");
+   printf("\nPress any key to continue......");
+    getch();
+    mainmenu();
+   }
+   else
+   {
+     printf("\n\n\aWarning!! Incorrect Password");
+     /*for(k=0;k<10;k++){
+        printf("%c",pass[k]);
+     }*/
+     getch();
+     Password();
+   }
+}
+
+
+void mainmenu(void)
+{
+    system("cls");
+    int n;
+    char c;
+
+
+    ///printf("\nPress any key to continue...");
+    ///getch();
+    printf("\n\n\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2 Simple Voting System \n\n\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2 ");
+    printf(" \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2");
+    printf("\n\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB2 1. Add data \n\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB2 ");
+    printf("\n\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB2 2. User Window \n\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB2 ");
+    printf("\n\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB2 3. View result \n\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB2 ");
+    printf("\n\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB2 4. Delete data \n\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB2 ");
+    printf("\n\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB2 7. View Election Info \n\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB2 ");
+    printf("\n\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB2 0. Quick Exit \n\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB2 ");
+    printf("\n------------------------------------------\n");
+    t();
+    printf("Enter your choice:");
+    scanf("%d",&n);
+    c=getchar();
+
+    if(isalpha(c))
+    {
+    printf("\n\nYou have pressed an alphabet\nPress any key to continue... \n");
+    getch();
+
