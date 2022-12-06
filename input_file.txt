@@ -1,0 +1,6 @@
+............Election Record.............
+Name of the election: Test
+Number of Candidate: 2	Number of Voter: 3
+Candidate name or symbol:
+1. moon
+2. 

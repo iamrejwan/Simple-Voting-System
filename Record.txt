@@ -1,0 +1,16 @@
+
+
+		Last Update of Test is:
+	Time:Tue Dec 06 21:26:11 2022
+
+	Vote of moon is: 1	Vote of  is: 0
+
+		Last Update of Test is:
+	Time:Tue Dec 06 21:26:13 2022
+
+	Vote of moon is: 2	Vote of  is: 0
+
+		Last Update of Test is:
+	Time:Tue Dec 06 21:26:17 2022
+
+	Vote of moon is: 2	Vote of  is: 1
